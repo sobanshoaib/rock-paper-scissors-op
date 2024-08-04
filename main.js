@@ -56,6 +56,8 @@ function playGame() {
         } else if (getresult === 2) {
             computerScore += 1;
             console.log("You lose this round")
+        } else {
+            console.log("Tie")
         }
         gamelength -= 1;
     } 
